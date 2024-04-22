@@ -12,7 +12,7 @@
 
 import json
 
-def decrypt_indices_from_file(json_file, english_words_file):
+def decryptIndices(json_file, english_words_file):
     '''
     Decrypts the indices from a JSON file using the provided English words file.
     @param: json_file (str): The path to the JSON file containing the encrypted indices.
@@ -42,8 +42,3 @@ def decrypt_indices_from_file(json_file, english_words_file):
         decrypted_text += decrypted_word + ' '
 
     return decrypted_text.strip()
-
-# Example usage:
-decrypted_text = decrypt_indices_from_file('EncryptedGroupHints Spring 2024 Section 001-1 (3).json', 'UCEnglish.txt')
-if decrypted_text:
-    print("Decrypted Gerbil Text:", decrypted_text)

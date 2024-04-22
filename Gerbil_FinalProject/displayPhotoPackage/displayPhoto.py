@@ -43,6 +43,6 @@ def displayPhoto():
 
    """
 
-   photo_path = '.jpg'  # Replace 'group_photo.jpg' with the actual path to your photo file
+   photo_path = 'Group_Photo.jpg'  # Replace 'group_photo.jpg' with the actual path to your photo file
 
    loadPhoto(photo_path)
